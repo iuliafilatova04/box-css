@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM STYLING</title>
+    <style>
+        #subscribe-form {
+            background-color: #004466;
+            padding: 20px;
+        }
+        .form-heading{
+            color: white;
+            font-size: 27px;
+        }
+        .input-email {
+            font-size: 30px;
+            padding: 10px;
+            padding-left: 50px;
+            border: none;
+            width: 450px;
+
+            background-image: url(at.svg);
+            background-size: 50px 50px;
+            background-repeat: no-repeat;
+            
+        }
+        .button-subscribe{
+            font-size: 30px;
+            padding: 10px;
+            background-color: #4dc3ff;
+            background-image: url(Pictogrammers-Material-Email-arrow-right.svg);
+
+            background-size: 50px 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            border: none;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="/url" id="subscribe-form">
+        <h2 class="form-heading">Join our newsletter list</h2>
+        <label>
+            <input
+            type="text"
+            placeholder="e.g: john.doe@example.com"
+            required
+            autofocus
+            
+            class="input-email"
+            > 
+        </label>
+        <button class="button-subscribe">SEND</button>
+    </form>
+    
+</body>
+</html>
